@@ -1,5 +1,6 @@
 package net.arsonists.journey_to_aeolus;
 
+import net.arsonists.journey_to_aeolus.block.ModBlocks;
 import net.arsonists.journey_to_aeolus.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,7 @@ public class Aeolus implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }
