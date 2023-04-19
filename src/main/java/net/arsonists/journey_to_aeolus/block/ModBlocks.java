@@ -15,7 +15,9 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block AZURITE_BLOCK = registerBlock("azurite_block",
-            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(7f).requiresTool()), ItemGroup.MISC);
+    public static final Block GALESTONE = registerBlock("galestone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
