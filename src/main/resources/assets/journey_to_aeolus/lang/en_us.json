@@ -3,6 +3,8 @@
 
   "block.journey_to_aeolus.azurite_block": "Block of Azurite",
   "block.journey_to_aeolus.galestone": "Galestone",
+  "block.journey_to_aeolus.galestone_bricks": "Galestone Bricks",
+  "block.journey_to_aeolus.chiseled_galestone_bricks": "Chiseled Galestone Bricks",
 
   "itemGroup.journey_to_aeolus.journey_to_aeolus": "Journey To Aeolus"
 }
