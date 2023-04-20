@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "journey_to_aeolus:block/galestone_slab"
+    },
+    "type=double": {
+      "model": "journey_to_aeolus:block/galestone"
+    },
+    "type=top": {
+      "model": "journey_to_aeolus:block/galestone_slab_top"
+    }
+  }
+}
