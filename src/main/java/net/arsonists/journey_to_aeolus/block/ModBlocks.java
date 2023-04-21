@@ -24,7 +24,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
     public static final Block CHISELED_GALESTONE_BRICKS = registerBlock("chiseled_galestone_bricks",
             new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+
     public static final Block GALESTONE_SLAB = registerBlock("galestone_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block GALESTONE_BRICKS_SLAB = registerBlock("galestone_bricks_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
