@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+    ],
+  "key": {
+    "#": {
+      "item": "journey_to_aeolus:galestone_bricks_slab"
+    }
+  },
+  "result": {
+    "item": "journey_to_aeolus:chiseled_galestone_bricks",
+    "count": 2
+  }
+}

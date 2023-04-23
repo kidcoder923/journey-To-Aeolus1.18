@@ -7,7 +7,7 @@
       "model": "journey_to_aeolus:block/galestone_bricks"
     },
     "type=top": {
-      "model": "journey_to_aeolus:block/galestone__bricks_slab_top"
+      "model": "journey_to_aeolus:block/galestone_bricks_slab_top"
     }
   }
 }

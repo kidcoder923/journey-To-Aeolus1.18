@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -29,6 +30,9 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
     public static final Block GALESTONE_BRICKS_SLAB = registerBlock("galestone_bricks_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+
+    public static final Block GALESTONE_STAIR = registerBlock("galestone_stair",
+            new StairsBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
