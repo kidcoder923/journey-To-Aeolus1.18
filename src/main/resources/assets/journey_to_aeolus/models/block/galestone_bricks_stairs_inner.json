@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "journey_to_aeolus:block/galestone_bricks",
+    "top": "journey_to_aeolus:block/galestone_bricks",
+    "side": "journey_to_aeolus:block/galestone_bricks"
+  }
+}
