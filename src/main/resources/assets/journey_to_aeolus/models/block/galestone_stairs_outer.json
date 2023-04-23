@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "journey_to_aeolus:block/galestone",
+    "top": "journey_to_aeolus:block/galestone",
+    "side": "journey_to_aeolus:block/galestone"
+  }
+}

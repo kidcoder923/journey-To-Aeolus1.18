@@ -2,6 +2,7 @@ package net.arsonists.journey_to_aeolus.block;
 
 import net.arsonists.journey_to_aeolus.Aeolus;
 import net.arsonists.journey_to_aeolus.item.ModItemGroup;
+import net.arsonists.journey_to_aeolus.item.custom.ModStairsBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -31,8 +32,12 @@ public class ModBlocks {
     public static final Block GALESTONE_BRICKS_SLAB = registerBlock("galestone_bricks_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
 
-    public static final Block GALESTONE_STAIR = registerBlock("galestone_stair",
-            new StairsBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block GALESTONE_STAIRS = registerBlock("galestone_stairs",
+            new ModStairsBlock(ModBlocks.GALESTONE.getDefaultState(),
+                    FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block GALESTONE_BRICKS_STAIRS = registerBlock("galestone_bricks_stairs",
+            new ModStairsBlock(ModBlocks.GALESTONE_BRICKS.getDefaultState(),
+                    FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
