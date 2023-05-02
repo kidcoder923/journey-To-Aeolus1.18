@@ -10,6 +10,9 @@ public class ModItems {
     public static final Item AZURITE_INGOT = registerItem("azurite_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.JOURNEY_TO_AEOLUS)));
 
+    public static final Item EMBERFRUIT = registerItem("emberfruit",
+            new Item(new FabricItemSettings().group(ModItemGroup.JOURNEY_TO_AEOLUS).food(ModFoodComponents.EMBERFRUIT)));
+
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Aeolus.MOD_ID, name), item);
     }
