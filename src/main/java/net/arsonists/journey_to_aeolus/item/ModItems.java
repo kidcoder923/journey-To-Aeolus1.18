@@ -13,6 +13,9 @@ public class ModItems {
     public static final Item EMBERFRUIT = registerItem("emberfruit",
             new Item(new FabricItemSettings().group(ModItemGroup.JOURNEY_TO_AEOLUS).food(ModFoodComponents.EMBERFRUIT)));
 
+    public static final Item EMBER_CRYSTAL = registerItem("ember_crystal",
+            new Item(new FabricItemSettings().group(ModItemGroup.JOURNEY_TO_AEOLUS).food(ModFoodComponents.EMBER_CRYSTAL)));
+
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Aeolus.MOD_ID, name), item);
     }
