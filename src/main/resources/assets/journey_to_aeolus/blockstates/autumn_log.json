@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "journey_to_aeolus:block/autumn_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "journey_to_aeolus:block/autumn_log"
+    },
+    "axis=z": {
+      "model": "journey_to_aeolus:block/autumn_log_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures:": {
+    "end": "journey_to_aeolus:block/autumn_stripped_log_top",
+    "side": "journey_to_aeolus:block/autumn_stripped_log_side"
+}
+}

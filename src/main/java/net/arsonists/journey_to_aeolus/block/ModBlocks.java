@@ -5,10 +5,7 @@ import net.arsonists.journey_to_aeolus.item.ModItemGroup;
 import net.arsonists.journey_to_aeolus.item.custom.ModStairsBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -40,6 +37,20 @@ public class ModBlocks {
     public static final Block GALESTONE_BRICKS_STAIRS = registerBlock("galestone_bricks_stairs",
             new ModStairsBlock(ModBlocks.GALESTONE_BRICKS.getDefaultState(),
                     FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+
+    public static final Block AUTUMN_LOG = registerBlock("autumn_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block AUTUMN_WOOD = registerBlock("autumn_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block STRIPPED_AUTUMN_LOG = registerBlock("stripped_autumn_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(4f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block STRIPPED_AUTUMN_WOOD = registerBlock("stripped_autumn_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(4f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+
+    public static final Block AUTUMN_PLANKS = registerBlock("autumn_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

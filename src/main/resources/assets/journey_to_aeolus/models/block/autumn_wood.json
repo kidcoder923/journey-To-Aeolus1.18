@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures:": {
+    "end": "journey_to_aeolus:block/autumn_log_side",
+    "side": "journey_to_aeolus:block/autumn_log_side"
+}
+}

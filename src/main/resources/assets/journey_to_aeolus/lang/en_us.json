@@ -13,5 +13,11 @@
   "block.journey_to_aeolus.galestone_bricks_stairs": "Galestone Bricks Stairs",
   "block.journey_to_aeolus.galestone_stairs": "Galestone Stairs",
 
+  "block.journey_to_aeolus.autumn_log": "Autumn Log",
+  "block.journey_to_aeolus.autumn_wood": "Autumn Wood",
+  "block.journey_to_aeolus.stripped_autumn_log": "Stripped Autumn Log",
+  "block.journey_to_aeolus.stripped_autumn_wood": "Stripped Autumn Wood",
+  "block.journey_to_aeolus.autumn_planks": "Autumn Planks",
+
   "itemGroup.journey_to_aeolus.journey_to_aeolus": "Journey To Aeolus"
 }

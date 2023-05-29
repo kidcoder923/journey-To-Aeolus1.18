@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "journey_to_aeolus:autumn_log",
+    "journey_to_aeolus:autumn_wood",
+    "journey_to_aeolus:stripped_autumn_log",
+    "journey_to_aeolus:stripped_autumn_wood"
+  ]
+}
