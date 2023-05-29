@@ -1,6 +1,7 @@
 package net.arsonists.journey_to_aeolus.block;
 
 import net.arsonists.journey_to_aeolus.Aeolus;
+import net.arsonists.journey_to_aeolus.block.custom.ModSaplingBlock;
 import net.arsonists.journey_to_aeolus.item.ModItemGroup;
 import net.arsonists.journey_to_aeolus.item.custom.ModStairsBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -49,6 +50,11 @@ public class ModBlocks {
 
     public static final Block AUTUMN_PLANKS = registerBlock("autumn_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f).requiresTool()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block AUTUMN_LEAVES = registerBlock("autumn_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.JOURNEY_TO_AEOLUS);
+    public static final Block AUTUMN_SAPLING = registerBlock("autumn_sapling",
+            new ModSaplingBlock(,
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.JOURNEY_TO_AEOLUS);
 
 
 

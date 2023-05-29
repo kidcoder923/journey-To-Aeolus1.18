@@ -30,6 +30,7 @@ public class ModRegistries {
         instance.add(ModBlocks.STRIPPED_AUTUMN_WOOD, 5, 5);
         instance.add(ModBlocks.STRIPPED_AUTUMN_LOG,5,5);
         instance.add(ModBlocks.AUTUMN_PLANKS,5,20);
+        instance.add(ModBlocks.AUTUMN_LEAVES,30,60);
     }
 
     private static void registerStrippables() {

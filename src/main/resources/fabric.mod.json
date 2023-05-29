@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.arsonists.journey_to_aeolus.Aeolus"
+    ],
+    "client": [
+      "net.arsonists.journey_to_aeolus.AeolusClient"
     ]
   },
   "mixins": [

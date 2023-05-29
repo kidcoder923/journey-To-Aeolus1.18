@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "journey_to_aeolus:block/autumn_sapling"
+  }
+}
