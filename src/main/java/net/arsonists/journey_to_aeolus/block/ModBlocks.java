@@ -4,6 +4,7 @@ import net.arsonists.journey_to_aeolus.Aeolus;
 import net.arsonists.journey_to_aeolus.block.custom.ModSaplingBlock;
 import net.arsonists.journey_to_aeolus.item.ModItemGroup;
 import net.arsonists.journey_to_aeolus.item.custom.ModStairsBlock;
+import net.arsonists.journey_to_aeolus.world.feature.tree.AutumnSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -53,7 +54,7 @@ public class ModBlocks {
     public static final Block AUTUMN_LEAVES = registerBlock("autumn_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.JOURNEY_TO_AEOLUS);
     public static final Block AUTUMN_SAPLING = registerBlock("autumn_sapling",
-            new ModSaplingBlock(,
+            new ModSaplingBlock(new AutumnSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.JOURNEY_TO_AEOLUS);
 
 

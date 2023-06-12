@@ -9,7 +9,7 @@ public class AeolusClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AUTUMN_LEAVES, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AUTUMN_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AUTUMN_SAPLING, RenderLayer.getCutout());
 
         //ModModelPredicateProvider.registerModModels();
     }

@@ -1,0 +1,12 @@
+{
+  "type": "journey_to_aeolus:aeolus",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -485105919,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "minecraft:plains"
+    }
+  }
+}
